@@ -13,7 +13,7 @@ st.write("Enter a chemical's SMILES string below to let the AI predict its pIC50
 # @st.cache_resource tells the website to only train the AI once so it doesn't crash on reload
 @st.cache_resource
 def load_and_train_ai():
-    df = pd.read_csv('../data/egfr_clean_data.csv')
+    df = pd.read_csv('egfr_clean_data.csv')
     
     def get_fp(smiles):
         mol = Chem.MolFromSmiles(smiles)

@@ -25,6 +25,6 @@ An interactive machine learning and bioinformatics web application designed to p
 
 ## How to Run Locally
 1. **Clone the repository:**
-   ```bash
+
    git clone [https://github.com/GunjanBhardwaj14/EGFR-AI-Predictor.git]
    cd EGFR-AI-Predictor
